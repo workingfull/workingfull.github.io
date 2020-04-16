@@ -1,0 +1,991 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <meta name="robots" content="noindex,follow" />   
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon__16.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/fontawesome/css/solid.css">
+    <!-- Bxslider CSS -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <!-- Animations CSS -->
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="css/fonts.css">   
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css" media="screen">   
+    <!-- jQuery -->
+    <script src="js/jQuery%203.4.1.min.js"></script> 
+    <!-- MediaElement JS -->
+    <script src="js/mediaelements/mediaelement-and-player.min.js"></script> 
+    <title>Розы</title>
+  </head>
+  <body>    
+      <div class="burger__menu">
+          <div class="container">            
+              <div class="row">
+                  <div class="col-12">
+                      <ul class="burgerMenu">
+                          <li class="burger__tc__btn"><i class="fas fa-times-circle"></i></li>
+                          <li class="burger__menu__title">Меню</li>
+                          <li class="burger__menu__item"><a id="header__item__burger">Главная</a></li>
+                          <li class="burger__menu__item"><a id="catalog__item__burger">Каталог</a></li>
+                          <li class="burger__menu__item"><a id="delivery__item__burger">Доставка и оплата</a></li>
+                          <li class="burger__menu__item"><a id="bonuses__form__item__burger">Контакты</a></li>
+                          <li class="burger__menu__item"><a id="reviews__item__burger">О нас</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-12">
+                      <div class="burger__miracle__btn">
+                          <a id="miracle__btn__one__burger" class="burger__miracle__btn__one">Выбрать розу</a>
+                          <a id="miracle__btn__two__burger" class="burger__miracle__btn__two">Заказать звонок</a>
+                      </div>
+                  </div>
+              </div>  
+          </div>     
+      </div>     
+      <header id="header" class="header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                      <div class="logo__header">
+                          <img src="img/logo__rose.png" alt="logo__rose" class="logo__rose">
+                      </div>
+                  </div>
+                  <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 d-none d-xl-block">
+                      <div class="phone__one">
+                          <img src="img/phone__one__icon.png" alt="phone__one__icon">
+                          <span>8 (800) 888-88-88</span>
+                          <p>Звоните нам по России бесплатно</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 offset-lg-3 offset-xl-0 d-none d-sm-block">
+                      <div class="phone__two">
+                          <span>8 (999) 999-99-99</span>
+                          <p>Пишите нам в мессенджеры</p>
+                          
+                          <a target="_blank" href="https://www.viber.com/ru/">
+                              <img src="img/viber.png" alt="viber" class="viber__icon">
+                          </a>
+                          <a target="_blank" href="https://telegram.org/">
+                              <img src="img/telegram.png" alt="telegram" class="telegram__icon">
+                          </a>
+                          <a target="_blank" href="https://www.whatsapp.com/">
+                              <img src="img/whatsapp.png" alt="whatsapp" class="whatsapp__icon">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 offset-lg-1 offset-xl-0 d-none d-lg-block">
+                      <div class="cart">
+                          <img src="img/shopping__icon.png" alt="shopping__icon" class="shopping__icon">
+                          <span class="cart__number">1</span>
+                          <span class="cart__price">00000 руб</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <nav class="nav">
+          <div class="container">
+              <div class="row">
+                 
+                  <div class="col-12 col-xl-11 offset-xl-1 offset-0 d-none d-lg-block">
+                      <ul class="menu d-flex">
+                          <li class="menu__item"><a href="#">Главная</a></li>
+                          <li class="menu__item"><a id="catalog__item__nav">Каталог</a></li>
+                          <li class="menu__item"><a id="delivery__item__nav">Доставка и оплата</a></li>
+                          <li class="menu__item"><a id="bonuses__form__item__nav">Контакты</a></li>
+                          <li class="menu__item"><a id="reviews__item__nav">О нас</a></li>
+                      </ul>
+                  </div>
+                  
+                  <div class="col-6 d-lg-none">
+                      <div class="burger__btn">
+                          <i class="fas fa-bars"></i>
+                      </div>
+                  </div>
+                  
+                  <div class="col-6 d-lg-none d-flex justify-content-end">
+                      <div class="cart__burger">
+                          <img src="img/shopping__icon.png" alt="shopping__icon" class="shopping__icon__small">
+                          <span class="cart__number__small">1</span>
+                          <span class="cart__price__small">00000 руб</span>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </nav>
+      <section class="slide__261">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="slide__title">
+                          <h2><span>Уникальный подарок</span><br> цветущая и свежая роза<br class="slide__title__br"> 261 неделю</h2>
+                          <p>Порадуйте свою любимую<br class="slide__title__p__br1"> совершенно новой идеей подарка.<br class="slide__title__p__br01"> Наши шикарные розы будут приносить<br class="slide__title__p__br2"> воспоминания вашим<br class="slide__title__p__br3"> близким в течение долгих 5 лет!</p>
+                      </div>
+                      <div class="slide__btn d-flex justify-content-center">
+                          <a id="slide__btn__one" class="slide__btn__one">Подробнее</a>
+                          <a id="slide__btn__two" class="slide__btn__two">Заказать</a>
+                      </div>
+                      <div class="slide__discount">
+                          <i class="times-circle fas fa-times-circle"></i>
+                          <p>Закажите<br class="slide__discount__p__br1"> стабилизированую розу<br class="slide__discount__p__br2"> с 20% скидкой!<br>
+                          </p>
+                          <p>
+                          Успейте купить по рекордно низкой цене 2990 рублей!
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="advantages__one">
+          <div class="container">          
+              <div class="row">
+                  <div class="col-lg-3 d-none d-lg-block">
+                      <div class="adv__item__one">
+                          <img src="img/adv__icon1.png" alt="adv__icon1">
+                          <h5>Ручная работа</h5>
+                          <p>Наша продукция<br> исключительно<br> ручного<br> производства</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                      <div class="adv__item__two">
+                          <img src="img/adv__icon2.png" alt="adv__icon2">
+                          <h5>Удобная доставка</h5>
+                          <p>Мы предлагаем<br> вам несколько<br> удобных способов<br> доставки</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                      <div class="adv__item__three">
+                          <img src="img/adv__icon3.png" alt="adv__icon3">
+                          <h5>Удобная оплата</h5>
+                          <p>Вы можете<br> выбрать<br> несколько<br> способов опалаты</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                      <div class="adv__item__four">
+                          <img src="img/adv__icon4.png" alt="adv__icon4">
+                          <h5>Гарантия</h5>
+                          <p>Мы заменим вам<br> цветок, если он<br> завянет<br> в течение 5 лет</p>
+                      </div>
+                  </div>
+              </div>           
+              <div class="row">               
+                 <div class="advantages__one__slider col-12">
+                    <div class="advantagesOneSliderCwidth">
+                     <div class="advantagesOneSlider">
+                         <div class="adv__item__one">
+                             <img src="img/adv__icon1.png" alt="adv__icon1">
+                             <h5>Ручная работа</h5>
+                             <p>Наша продукция<br> исключительно<br> ручного<br> производства</p>
+                         </div>                 
+                         <div class="adv__item__two">
+                             <img src="img/adv__icon2.png" alt="adv__icon2">
+                             <h5>Удобная доставка</h5>
+                             <p>Мы предлагаем<br> вам несколько<br> удобных способов<br> доставки</p>
+                         </div>                 
+                         <div class="adv__item__three">
+                             <img src="img/adv__icon3.png" alt="adv__icon3">
+                             <h5>Удобная оплата</h5>
+                             <p>Вы можете<br> выбрать<br> несколько<br> способов опалаты</p>
+                         </div>              
+                         <div class="adv__item__four">
+                             <img src="img/adv__icon4.png" alt="adv__icon4">
+                             <h5>Гарантия</h5>
+                             <p>Мы заменим вам<br> цветок, если он<br> завянет<br> в течение 5 лет</p>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="advOneButtons">
+                     <span id="advOneSlider-prev"></span>
+                     <span id="advOneSlider-next"></span>
+                 </div>
+                               
+              </div>
+          </div>
+      </section>
+      <section id="create__miracle" class="create__miracle">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h1>Мы создаем чудо</h1>
+                      <h3>Мы создаем чудо</h3>
+                  </div>
+              </div>
+              
+              <div class="row create__miracle__all d-none d-lg-flex">
+                    <img src="img/miracle__rose.png" alt="miracle__rose" id="miracle__rose" class="miracle__rose">
+                     <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-0">
+                         <div id="miracle__one" class="miracle__one">
+                             <h4>5 лет свежий букет</h4>
+                             <img src="img/miracle__icon1.png" alt="miracle__icon1">
+                             <p>Наши стабилизированные<br> розы выглядят и источают<br> аромат, как<br> свежесрезанные.</p>
+                         </div>
+                         <div id="miracle__two" class="miracle__two">
+                             <h4>Не требуют ухода</h4>
+                             <img src="img/miracle__icon2.png" alt="miracle__icon2">
+                             <p>Наши розы в колбе не<br> требуют особого ухода.<br> Следует всего лишь<br> смахнуть пыль!</p>
+                         </div>
+                         <div id="miracle__three" class="miracle__three">
+                             <h4>Wow-эффект</h4>
+                             <img src="img/miracle__icon3.png" alt="miracle__icon3">
+                             <p>Наши розы и различные<br> дополнения к подарку<br> производят потрясающий<br> эффект!</p>
+                         </div>
+                     </div>
+                     <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-0">
+                         <div id="miracle__four" class="miracle__four">
+                             <h4>Гипоаллергенно</h4>
+                             <img src="img/miracle__icon4.png" alt="miracle__icon4">
+                             <p>Натуральные<br> стабилизованные розы,<br> никогда не вызовут у<br> вашей дамы аллергию!</p>
+                         </div>
+                         <div id="miracle__five" class="miracle__five">
+                             <h4>Предмет интерьера</h4>
+                             <img src="img/miracle__icon5.png" alt="miracle__icon5">
+                             <p>Розу можно разместить<br> на любом месте. Она не<br> требует света и иных<br> рекомендаций</p>
+                         </div>
+                         <div id="miracle__six" class="miracle__six">
+                             <h4>Высокое качество</h4>
+                             <img src="img/miracle__icon6.png" alt="miracle__icon6">
+                             <p>Мы работаем только с<br> официальными<br> поставщиками, имеющие<br> все сертификаты качества</p>
+                         </div>
+                     </div>
+              </div>
+              
+              <div class="row">               
+                 <div class="carousel__slide__miracle col-12 d-lg-none">
+                    <div class="carouselSlideMiracleCwidth">
+                     <div class="carouselSlideMiracle">
+                         <div class="cs__Miracle__one">
+                            <div class="miracle__rose__small">
+                                <img src="img/miracle__rose__small__left.png" alt="miracle__rose__small__left" id="miracle__rose__small__left" class="miracle__rose__small__left"></div>
+                             <div id="miracle__one__carousel" class="miracle__one">
+                                 <h4>5 лет свежий букет</h4>
+                                 <img src="img/miracle__icon1.png" alt="miracle__icon1">
+                                 <p>Наши стабилизированные<br> розы выглядят и источают<br> аромат, как<br> свежесрезанные.</p>
+                             </div>
+                             <div id="miracle__two__carousel" class="miracle__two">
+                                 <h4>Не требуют ухода</h4>
+                                 <img src="img/miracle__icon2.png" alt="miracle__icon2">
+                                 <p>Наши розы в колбе не<br> требуют особого ухода.<br> Следует всего лишь<br> смахнуть пыль!</p>
+                             </div>
+                             <div id="miracle__three__carousel" class="miracle__three">
+                                 <h4>Wow-эффект</h4>
+                                 <img src="img/miracle__icon3.png" alt="miracle__icon3">
+                                 <p>Наши розы и различные<br> дополнения к подарку<br> производят потрясающий<br> эффект!</p>
+                             </div>
+                         </div>
+                         <div class="cs__Miracle__two">
+                            <div class="miracle__rose__small">
+                                <img src="img/miracle__rose__small__right.png" alt="miracle__rose__small__right" class="miracle__rose__small__right"></div>
+                             <div class="miracle__four">
+                                 <h4>Гипоаллергенно</h4>
+                                 <img src="img/miracle__icon4.png" alt="miracle__icon4">
+                                 <p>Натуральные<br> стабилизованные розы,<br> никогда не вызовут у<br> вашей дамы аллергию!</p>
+                             </div>
+                             <div class="miracle__five">
+                                 <h4>Предмет интерьера</h4>
+                                 <img src="img/miracle__icon5.png" alt="miracle__icon5">
+                                 <p>Розу можно разместить<br> на любом месте. Она не<br> требует света и иных<br> рекомендаций</p>
+                             </div>
+                             <div class="miracle__six">
+                                 <h4>Высокое качество</h4>
+                                 <img src="img/miracle__icon6.png" alt="miracle__icon6">
+                                 <p>Мы работаем только с<br> официальными<br> поставщиками, имеющие<br> все сертификаты качества</p>
+                             </div>
+                         </div>                            
+                     </div>
+                    </div>
+                 </div>
+                 <div class="miracleButtons">
+                     <span id="miracleSlider-prev"></span>
+                     <span id="miracleSlider-next"></span>
+                 </div>
+                               
+              </div>
+              
+              <div class="row">
+                  <div class="col-12">
+                      <div class="miracle__btn">
+                          <a id="miracle__btn__one" class="miracle__btn__one">Выбрать розу</a>
+                          <a id="miracle__btn__two" class="miracle__btn__two">Заказать звонок</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="catalog" class="catalog">
+          <div class="container">
+              <div class="row">
+                  <div class="catalog__title col-12">
+                      <h1>Выберите свой цветок</h1>
+                      <h3>Выберите свой цветок</h3>
+                  </div>
+              </div>
+              <div class="row cards">
+                  <div class="col-xl-4 offset-xl-2">
+                      <div class="card__one">
+                          <img src="img/card1.png" alt="card1">
+                          <div class="card__one__action">- 20%</div>
+                          <div class="card__one__description">
+                              <div class="card__one__piece">
+                                  <i class="far fa-hourglass-half"></i>
+                                  <span>7шт</span>
+                              </div>
+                              <div class="card__one__price">Новая цена <span>2990 рублей</span></div>
+                              <div class="card__one__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                              <button type="submit" class="card__one__btn">Заказать розу</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4">
+                      <div class="card__two">
+                          <img src="img/card2.png" alt="card2">
+                          <div class="card__two__action">- 20%</div>
+                          <div class="card__two__description">
+                              <div class="card__two__piece">
+                                  <i class="far fa-hourglass-half"></i>
+                                  <span>7шт</span>
+                              </div>
+                              <div class="card__two__price">Новая цена <span>2990 рублей</span></div>
+                              <div class="card__two__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                              <button type="submit" class="card__two__btn">Заказать розу</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 offset-xl-2">
+                      <div class="card__three">
+                          <img src="img/card3.png" alt="card3">
+                          <div class="card__three__action">- 20%</div>
+                          <div class="card__three__description">
+                              <div class="card__three__piece">
+                                  <i class="far fa-hourglass-half"></i>
+                                  <span>7шт</span>
+                              </div>
+                              <div class="card__three__price">Новая цена <span>2990 рублей</span></div>
+                              <div class="card__three__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                              <button type="submit" class="card__three__btn">Заказать розу</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4">
+                      <div class="card__four">
+                          <img src="img/card1.png" alt="card1">
+                          <div class="card__four__action">- 20%</div>
+                          <div class="card__four__description">
+                              <div class="card__four__piece">
+                                  <i class="far fa-hourglass-half"></i>
+                                  <span>7шт</span>
+                              </div>
+                              <div class="card__four__price">Новая цена <span>2990 рублей</span></div>
+                              <div class="card__four__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                              <button type="submit" class="card__four__btn">Заказать розу</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-10 offset-lg-1 d-xl-none">
+                      <div class="slideshowCatalog">
+                          <div class="sliderCatalog">
+                              <div>
+                                  <div class="card__one">
+                                      <img src="img/card1.png" alt="card1">
+                                      <div class="card__one__action">- 20%</div>
+                                      <div class="card__one__description">
+                                          <div class="card__one__piece">
+                                              <i class="far fa-hourglass-half"></i>
+                                              <span>7шт</span>
+                                          </div>
+                                          <div class="card__one__price">Новая цена <span>2990 рублей</span></div>
+                                          <div class="card__one__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                                          <button type="submit" class="card__one__btn">Заказать розу</button>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="card__two">
+                                      <img src="img/card2.png" alt="card2">
+                                      <div class="card__two__action">- 20%</div>
+                                      <div class="card__two__description">
+                                          <div class="card__two__piece">
+                                              <i class="far fa-hourglass-half"></i>
+                                              <span>7шт</span>
+                                          </div>
+                                          <div class="card__two__price">Новая цена <span>2990 рублей</span></div>
+                                          <div class="card__two__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                                          <button type="submit" class="card__two__btn">Заказать розу</button>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="card__three">
+                                      <img src="img/card3.png" alt="card3">
+                                      <div class="card__three__action">- 20%</div>
+                                      <div class="card__three__description">
+                                          <div class="card__three__piece">
+                                              <i class="far fa-hourglass-half"></i>
+                                              <span>7шт</span>
+                                          </div>
+                                          <div class="card__three__price">Новая цена <span>2990 рублей</span></div>
+                                          <div class="card__three__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                                          <button type="submit" class="card__three__btn">Заказать розу</button>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="card__four">
+                                      <img src="img/card1.png" alt="card1">
+                                      <div class="card__four__action">- 20%</div>
+                                      <div class="card__four__description">
+                                          <div class="card__four__piece">
+                                              <i class="far fa-hourglass-half"></i>
+                                              <span>7шт</span>
+                                          </div>
+                                          <div class="card__four__price">Новая цена <span>2990 рублей</span></div>
+                                          <div class="card__four__price__old"><span>4990 рублей</span><br> Старая цена</div>
+                                          <button type="submit" class="card__four__btn">Заказать розу</button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="catalogButtons">
+                     <span class="catalog__prev"></span>
+                     <span class="catalog__next"></span>
+                 </div>
+              </div>
+          </div>
+      </section>
+      <section class="engraving">
+          <div class="container">
+              <div class="row">
+                  <div class="engraving__title col-12">
+                      <h3>Создайте свой<br class="engraving__title__br"> идеальный подарок!</h3>
+                      <p>Роскошная подарочная коробка<br class="engraving__title__p__br"> и индивидуальная надпись<br> создадут дополнительный WOW-эффект!</p>
+                  </div>
+              </div>
+              <div class="row gifts">
+                  <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1">
+                      <div class="gift__br">
+                          <div class="gift__one">
+                              <img src="img/gift1.png" alt="gift1">
+                              <div class="gift__one__description">
+                                  <div class="gift__one__price">800 рублей</div>
+                                  <button type="submit" class="gift__one__btn">Заказать</button>
+                              </div>
+                          </div>
+                      </div> 
+                  </div>
+                  <div class="col-xl-4 offset-xl-0 col-lg-5 offset-lg-0">
+                      <div class="gift__br">
+                          <div class="gift__two">
+                              <img src="img/gift2.png" alt="gift2">
+                              <div class="gift__two__description">
+                                  <div class="gift__two__price">1900 рублей</div>
+                                  <button type="submit" class="gift__two__btn">Заказать</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-12 d-lg-none">
+                      <div class="slideshowEngraving">
+                          <div class="sliderEngraving">
+                              <div>
+                                  <div class="gift__br">
+                                      <div class="gift__one">
+                                          <img src="img/gift__small1.png" alt="gift__small1">
+                                          <div class="gift__one__description">
+                                              <div class="gift__one__price">800 рублей</div>
+                                              <button type="submit" class="gift__one__btn">Заказать</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="gift__br">
+                                      <div class="gift__two">
+                                          <img src="img/gift__small2.png" alt="gift__small2">
+                                          <div class="gift__two__description">
+                                              <div class="gift__two__price">1900 рублей</div>
+                                              <button type="submit" class="gift__two__btn">Заказать</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="engravingButtons">
+                     <span class="engraving__prev"></span>
+                     <span class="engraving__next"></span>
+                 </div>
+              </div>
+          </div>
+      </section>
+      <section class="work__stages">
+          <div class="container">
+              <div class="row">
+                  <div class="work__stages__title col-12">
+                      <h1>Этапы работы</h1>
+                      <h3>Этапы работы</h3>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-0 col-12">
+                      <div class="work__items">
+                          <div id="work__item__1" class="work__item__1">
+                              <img src="img/work__icon1.png" alt="work__icon1">
+                              <span>1</span>
+                              <p>Оставьте заявку на сайте</p>
+                          </div>
+                          <div id="work__item__2" class="work__item__2">
+                              <img src="img/work__icon2.png" alt="work__icon2">
+                              <span>2</span>
+                              <p>В ближайше время с вами свяжется наш<br> специалист......</p>
+                          </div>
+                          <div id="work__item__3" class="work__item__3">
+                              <img src="img/work__icon3.png" alt="work__icon3">
+                              <span>3</span>
+                              <p>После одобрения заказа мы оформляем<br> на доставку. Фотографируем перед<br>     отгрузкой, чтобы вы убедились в<br> правильности комплектации</p>
+                          </div>
+                          <div id="work__item__4" class="work__item__4">
+                              <img src="img/work__icon4.png" alt="work__icon4">
+                              <span>4</span>
+                              <p>Получение и оплата товара</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-0">
+                      <img src="img/work__gift.png" alt="work__gift" id="work__gift" class="work__gift">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-12">
+                      <div class="work__stages__btn">
+                          <a id="work__stages__ws__btn">Заказать звонок</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="advantages__two">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-3 col-lg-4 d-none d-lg-block">
+                      <div class="adv2__item__one">
+                          <img src="img/adv2__icon1.png" alt="adv2__icon1">
+                          <h5>Экологически безопасно</h5>
+                          <p>Не содержит<br> синтетических<br> материалов<br> и отдушек</p>
+                      </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-2 d-none d-lg-block">
+                      <div class="adv2__item__two">
+                          <img src="img/adv2__icon2.png" alt="adv2__icon2">
+                          <h5>Простота</h5>
+                          <p>Минимальные<br> требования по<br> уходу за<br>  розой в колбе</p>
+                      </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 d-none d-lg-block">
+                      <div class="adv2__item__three">
+                          <img src="img/adv2__icon3.png" alt="adv2__icon3">
+                          <h5>Незабываемый подарок</h5>
+                          <p>Стабилизированная<br> роза всегда будет<br> напоминать<br> о вас!</p>
+                      </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-2 d-none d-lg-block">
+                      <div class="adv2__item__four">
+                          <img src="img/adv2__icon4.png" alt="adv2__icon4">
+                          <h5>Живой цветок</h5>
+                          <p>Стабилизированная<br> роза выглядит и<br> пахнет, как<br> свежесрезанная</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">               
+                 <div class="advantages__two__slider col-12">
+                    <div class="advantagesTwoSliderCwidth">
+                     <div class="advantagesTwoSlider">
+                         <div class="adv2__item__one">
+                             <img src="img/adv2__icon1.png" alt="adv2__icon1">
+                             <h5>Экологически безопасно</h5>
+                             <p>Не содержит<br> синтетических<br> материалов<br> и отдушек</p>
+                         </div>                 
+                         <div class="adv2__item__two">
+                             <img src="img/adv2__icon2.png" alt="adv2__icon2">
+                             <h5>Простота</h5>
+                             <p>Минимальные<br> требования по<br> уходу за<br>  розой в колбе</p>
+                         </div>                 
+                         <div class="adv2__item__three">
+                             <img src="img/adv2__icon3.png" alt="adv2__icon3">
+                             <h5>Незабываемый подарок</h5>
+                             <p>Стабилизированная<br> роза всегда будет<br> напоминать<br> о вас!</p>
+                         </div>              
+                         <div class="adv2__item__four">
+                             <img src="img/adv2__icon4.png" alt="adv2__icon4">
+                             <h5>Живой цветок</h5>
+                             <p>Стабилизированная<br> роза выглядит и<br> пахнет, как<br> свежесрезанная</p>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="advTwoButtons">
+                     <span id="advTwoSlider-prev"></span>
+                     <span id="advTwoSlider-next"></span>
+                 </div>                               
+              </div>
+          </div>
+      </section>
+      <section class="add__services">
+          <div class="container">
+              <div class="row">
+                  <div class="add__services__title col-12">
+                      <h3>Вкуснейшие сладости<br class="add__services__title__br"> для ваших любимых</h3>
+                      <p>Прекрасное дополнение к любому подарку!<br> 
+                      Набор настоящего Бельгийского<br class="add__services__p__br"> шоколада ручной работы.</p>
+                  </div>
+              </div>
+              <div class="row add__s">
+                  <div class="col-lg-4 d-none d-lg-block">
+                      <div class="add__service__br">
+                          <div class="add__service__bg">
+                              <div class="add__service__one">
+                                  <img src="img/chocolate__1.png" alt="chocolate__1">
+                                  <div class="add__service__one__description">
+                                      <div class="add__service__one__quantity">12 конфет</div>
+                                      <div class="add__service__one__price">800 рублей</div>
+                                      <button type="submit" class="add__service__one__btn">Заказать</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> 
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                      <div class="add__service__br">
+                          <div class="add__service__bg">
+                              <div class="add__service__two">
+                                  <img src="img/chocolate__2.png" alt="chocolate__2">
+                                  <div class="add__service__two__description">
+                                      <div class="add__service__two__quantity">6 конфет</div>
+                                      <div class="add__service__two__price">1900 рублей</div>
+                                      <button type="submit" class="add__service__two__btn">Заказать</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                      <div class="add__service__br">
+                          <div class="add__service__bg">
+                              <div class="add__service__three">
+                                  <img src="img/chocolate__3.png" alt="chocolate__3">
+                                  <div class="add__service__three__description">
+                                      <div class="add__service__three__quantity">16 конфет</div>
+                                      <div class="add__service__three__price">1900 рублей</div>
+                                      <button type="submit" class="add__service__three__btn">Заказать</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">               
+                 <div class="add__services__slider col-12 d-lg-none">
+                    <div class="addServicesSliderCwidth">
+                     <div class="addServicesSlider">
+                     <div>
+                         <div class="add__service__br">
+                          <div class="add__service__bg">
+                              <div class="add__service__one">
+                                  <img src="img/chocolate__small__1.png" alt="chocolate__small__1">
+                                  <div class="add__service__one__description">
+                                      <div class="add__service__one__quantity">12 конфет</div>
+                                      <div class="add__service__one__price">800 рублей</div>
+                                      <button type="submit" class="add__service__one__btn">Заказать</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>                 
+                     </div>
+                     <div>   
+                         
+                         <div class="add__service__br">
+                          <div class="add__service__bg">
+                              <div class="add__service__two">
+                                  <img src="img/chocolate__small__2.png" alt="chocolate__small__2">
+                                  <div class="add__service__two__description">
+                                      <div class="add__service__two__quantity">6 конфет</div>
+                                      <div class="add__service__two__price">1900 рублей</div>
+                                      <button type="submit" class="add__service__two__btn">Заказать</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>                 
+                     </div>
+                     <div>
+                         <div class="add__service__br">
+                          <div class="add__service__bg">
+                              <div class="add__service__three">
+                                  <img src="img/chocolate__small__3.png" alt="chocolate__small__3">
+                                  <div class="add__service__three__description">
+                                      <div class="add__service__three__quantity">16 конфет</div>
+                                      <div class="add__service__three__price">1900 рублей</div>
+                                      <button type="submit" class="add__service__three__btn">Заказать</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>              
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="addServicesButtons">
+                     <span id="addServicesSlider-prev"></span>
+                     <span id="addServicesSlider-next"></span>
+                 </div>                               
+              </div>
+          </div>
+      </section>
+      <section id="delivery" class="delivery">
+          <div class="container">
+              <div class="row">
+                  <div class="delivery__title col-12">
+                      <h3>Варианты<br class="delivery__title__br"> доставки и оплата</h3>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xl-7 col-lg-6">
+                      <img src="img/delivery__rose.png" alt="delivery__rose" class="delivery__rose">
+                  </div>
+                  <div class="col-xl-5 col-lg-6">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.<br><br>
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> 
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br> 
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="reviews" class="reviews">
+          <div class="container">
+              <div class="row">
+                  <div class="reviews__title col-12">
+                      <h3>Наши клиенты</h3>
+                  </div>
+              </div>
+              
+              <div class="row">    
+                  <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                     
+                      <div id="carouselExampleReviews" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleReviews" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleReviews" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleReviews" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                              
+                                  <div class="reviewsVideo">                      
+                                      <video width="400" height="292" style="width:100%; height:100%;"             poster="media/poster__reviews.png">
+                                          <source src="media/video__reviews.mp4" type="video/mp4">
+                                      </video>  
+                                  </div>
+                          
+                                  <h5>Дмитрий Попов</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>                                
+                                                              
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="reviewsVideo">                      
+                                      <video width="400" height="292" style="width:100%; height:100%;"             poster="media/poster__reviews.png">
+                                          <source src="media/video__reviews.mp4" type="video/mp4">
+                                      </video>  
+                                  </div>
+                          
+                                  <h5>Дмитрий Попов</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="reviewsVideo">                      
+                                      <video width="400" height="292" style="width:100%; height:100%;"             poster="media/poster__reviews.png">
+                                          <source src="media/video__reviews.mp4" type="video/mp4">
+                                      </video>  
+                                  </div>
+                          
+                                  <h5>Дмитрий Попов</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleReviews" role="button" data-slide="prev">
+                              <span class="carousel-cl-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleReviews" role="button" data-slide="next">
+                              <span class="carousel-cl-next-icon"></span>
+                            </a>
+                          </div>   
+                  </div>                                 
+              </div>   
+          </div>
+      </section>
+      <section id="bonuses__form" class="bonuses__form">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h1>Подарите сказку любимой</h1>
+                      <h3>Подарите сказку любимой</h3>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xl-7 offset-xl-1 col-lg-8">
+                      <div class="action__form">
+                          <div class="action__br__1"></div>
+                          <div class="action__br__2"></div>
+                          <div class="action__bg">
+                              <img src="img/form__action__pattern.png" alt="form__action__pattern">
+                              <h3>Февраль<br> дарит подарки!</h3>
+                              <p>Каждому покупателю<br> <span>индивидуальная гравировка<br> в подарок!</span><span class="form__p__star"><img src="img/star__icon.png" alt="star__icon"></span></p>
+                              <p class="action__form__p__small"><span class="form__p__star__small"><img src="img/star__icon.png" alt="star__icon"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                              Акция действительна только до 14 февраля 2018 года
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4">
+                      <form action="#" method="post"> 
+                          <div class="request__form">
+                              <h4>Остались вопросы ?</h4>
+                              <h6>Закажите<br> звонок оператора</h6>
+                              <p class="bf__form">
+                                  <label for="userName" class="bf__form__control name">
+                                      <input type="text" name="user__name" id="userName" title="" autocomplete="off" maxlength="25" required placeholder="Введите имя">
+                                  </label><br class="bf__form__br">
+                                  <label for="user__tel" class="bf__form__control tel">
+                                      <input type="tel" name="user__tel" id="user__tel" autocomplete="off" title="" required placeholder="Введите телефон">
+                                  </label><br class="bf__form__br">
+                                  <button onclick="formFunction()" class="bf__form__button" type="submit">Заказать звонок</button>
+                              </p>
+                              <div class="bf__rights__reserved">Все права защищены</div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="hint">
+          <div class="container">
+              <div class="row">
+                  <div class="hint__title col-12">
+                      <h3>Как намекнуть мужчине,<br class="hint__title__h3__br"> если я девушка ?</h3>
+                      <p>Поделитесь нами в социальных сетях<br class="hint__title__p__br"> и он точно поймет ваши желания!</p>
+                      <div class="hint__icons">
+                          <img src="img/hint__arrow.png" alt="hint__arrow" class="hint__arrow">
+                          <a target="_blank" href="https://vk.com/">
+                              <img src="img/hint__vk__icon.png" alt="hint__vk__icon" class="hint__vk__icon">
+                          </a>
+                          <a target="_blank" href="https://www.facebook.com/">
+                              <img src="img/hint__fb__icon.png" alt="hint__fb__icon" class="hint__fb__icon">
+                          </a>
+                          <a target="_blank" href="https://www.instagram.com/?hl=ru">
+                              <img src="img/hint__im__icon.png" alt="hint__im__icon" class="hint__im__icon">
+                          </a>   
+                      </div>
+                  <div class="hint__girl"></div>
+                  </div>
+                  <div class="scroll">
+                      <a id="scroll__top" class="scroll__top"><i class="far fa-angle-up"></i></a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <footer class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-lg-3 col-12">
+                      <div class="logo__footer">
+                          <img src="img/logo__rose__f.png" alt="logo__rose__f" class="logo__rose__f">
+                          <ul class="menu__f__small">
+                          <li class="menu__item__f__small"><a id="header__item__footer">Главная</a></li>
+                          <li class="menu__item__f__small"><a id="catalog__item__footer">Каталог</a></li>
+                          <li class="menu__item__f__small"><a id="delivery__item__footer">Дотавка и оплата</a></li>
+                          <li class="menu__item__f__small"><a id="bonuses__form__item__footer">Контакты</a></li>
+                          <li class="menu__item__f__small"><a id="reviews__item__footer">О нас</a></li>
+                      </ul>
+                          <span class="company__name">&#169; Название компании<br>sitename.ru</span>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 d-none d-lg-block">
+                      <ul class="menu__f d-flex">
+                          <li class="menu__item__f"><a id="header__item__footer__f">Главная</a></li>
+                          <li class="menu__item__f"><a id="catalog__item__footer__f">Каталог</a></li>
+                          <li class="menu__item__f"><a id="delivery__item__footer__f">Дотавка и оплата</a></li>
+                          <li class="menu__item__f"><a id="bonuses__form__item__footer__f">Контакты</a></li>
+                          <li class="menu__item__f"><a id="reviews__item__footer__f">О нас</a></li>
+                      </ul>
+                      <div class="rights__reserved">2018 / Все права защищены</div>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 col-12">
+                      <div class="phone__f">
+                          <img src="img/phone__f__icon.png" alt="phone__f__icon" class="phone__f__icon">
+                          <span class="phone__f__tel__1">8 (800) 888-88-88</span><br>
+                          <span class="phone__f__tel__2">8 (999) 999-99-99</span><br>
+                          <div class="messengers">
+                             
+                              <a target="_blank" href="https://www.viber.com/ru/">
+                                  <img src="img/viber.png" alt="viber" class="viber__icon messengers__h">
+                              </a>
+                              <a target="_blank" href="https://telegram.org/">
+                                  <img src="img/telegram.png" alt="telegram" class="telegram__icon messengers__h">
+                              </a>
+                              <a target="_blank" href="https://www.whatsapp.com/">
+                                  <img src="img/whatsapp.png" alt="whatsapp" class="whatsapp__icon messengers__h">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row d-lg-none">
+                  <div class="col-md-4 col-12">
+                     <div class="company__r">
+                         <span class="company__name__f">&#169; Название компании sitename.ru</span>
+                     </div>
+                  </div>
+                  <div class="col-md-8 col-12">
+                      <div class="reserved__f__r">
+                          <div class="rights__reserved__f">2018 / Все права защищены</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+<!--    <script src="js/jQuery%203.4.1.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>  
+    <!-- Bxslider JS -->
+    <script src="js/jquery.bxslider.js"></script>    
+    <!-- Afterglow JS -->
+    <script src="js/afterglow.min.js"></script>   
+    <!-- Mask JS -->
+    <script src="js/mask/jquery.maskedinput.js"></script>  
+    <!-- Fitvids JS -->
+    <script src="js/jquery.fitvids.js"></script>  
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
